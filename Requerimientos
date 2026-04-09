@@ -1,4 +1,36 @@
-flask
-mysql-connector-python
-pymongo
-requests
+- Toma de requerimientos (1° paso del ciclo de vida del software-sprint)
+   a) Tomar nota de lo que el cliente o PO necesita 
+   b) Convertirlo en casos de uso
+   c) Convertirlo en escenarios
+
+
+a) Necesito un sistema para una clinica donde los pacientes puedan sacar turno online.
+Los pacientes deben registrarse.
+Un paciente puede ver los turnos disponibles y reservar uno.
+El recepcionista pude ver todos los turns del dia.
+El sistema debe impedir reservar dos veces el mismo horario.
+
+b) Identificar actores:
+      * Paciente
+      * Recepcionista 
+    
+    Casos de uso:
+      * Registrarse
+      * Iniciar sesion
+      * Ver turnos disponibles
+      * Reservar turno
+      * Ver agenda diaria
+
+c) Escenarios:
+     - Given: el paciente esta registrado
+       and hay turnos disponibles.
+     - When: el paciente seleccionaun turno.
+     - Then: el sistema guarda la reserva 
+       and el turno queda ocupado.
+
+
+- Planificacion (2° paso del ciclo de vida del software-sprint)
+   - Crear los ticket
+   - Refinarlos
+   - Estimarlos
+   - Asignarlos
