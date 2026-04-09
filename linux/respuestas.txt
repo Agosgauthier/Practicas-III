@@ -1,0 +1,17 @@
+¿Qué hace el script?
+El script crea una estructura de carpetas para una empresa. Dentro de esas carpetas genera archivos de productos, escribe información en ellos, muestra el contenido de uno, copia archivos a otra carpeta, renombra archivos, elimina archivos y finalmente muestra toda la estructura creada.
+
+¿Qué comandos de Linux usé?
+Usé los comandos: pwd, ls, cd, mkdir, touch, cat, cp, mv, rm y chmod.
+
+¿Para qué sirve chmod +x?
+Sirve para darle permisos de ejecución a un archivo, permitiendo que se pueda ejecutar como un programa.
+
+¿Qué diferencia hay entre cp y mv?
+cp se usa para copiar archivos o carpetas, mientras que mv se usa para moverlos o renombrarlos.
+
+¿Qué pasaría si no uso cd correctamente?
+Si no uso cd correctamente, los archivos o carpetas se crearían en ubicaciones incorrectas y el script no funcionaría como se espera.
+
+¿Qué aprendí en esta práctica?
+Aprendí a crear y usar contenedores con Docker, a manejar el sistema de archivos en Linux y a crear y ejecutar scripts bash para automatizar tareas.
