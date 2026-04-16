@@ -1,10 +1,13 @@
 name: Pipeline estilo clase
 
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
   pipeline:
+    name: Pipeline de Integración Continua
     runs-on: ubuntu-latest
 
     steps:
